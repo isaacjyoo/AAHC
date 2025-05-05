@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ann Arbor Hope Church</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 data-key="church_name">Ann Arbor Hope Church</h1>
+    <div class="language-toggle">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('ko')">한국어</button>
+    </div>
+  </header>
+  <nav>
+    <a href="index.html" data-key="home">Home</a>
+    <a href="about.html" data-key="about">About</a>
+    <a href="worship.html" data-key="worship">Worship</a>
+    <a href="ministries.html" data-key="ministries">Ministries</a>
+    <a href="events.html" data-key="events">Events</a>
+    <a href="gallery.html" data-key="gallery">Gallery</a>
+    <a href="sermons.html" data-key="sermons">Sermons</a>
+    <a href="serve.html" data-key="serve">Serve</a>
+    <a href="give.html" data-key="give">Give</a>
+    <a href="contact.html" data-key="contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section class="section" id="services">
+      <h2 data-key="worship_title">Worship Schedule</h2>
+      <ul>
+        <li data-key="worship_1">Korean Worship: Sundays at 2:00 PM (Main Sanctuary)</li>
+        <li data-key="worship_2">English Worship: Sundays at 2:00 PM (Fellowship Room)</li>
+        <li data-key="worship_3">Youth Worship (OYC): Saturdays at 5:30 PM</li>
+        <li data-key="worship_4">College/Young Adult Worship: Fridays at 6:30 PM</li>
+        <li data-key="worship_5">Morning Prayer: Weekdays at 5:30 AM</li>
+        <li data-key="worship_6">Campus Morning Prayer: Weekdays at 7:00 AM @ Douglas Chapel</li>
+        <li data-key="worship_7">Praise & Prayer Night: Last Friday each month at 8:00 PM</li>
+      </ul>
+    </section>
+
+    <section class="section" id="events">
+      <h2 data-key="events_title">Upcoming Events & News</h2>
+      <p data-key="events_desc">Visit our church to join our community events, including lock-ins, concerts, and outdoor worship services.</p>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2 data-key="gallery_title">Photo Gallery</h2>
+      <img class="gallery" src="images/love_concert.jpg" alt="Love Concert" />
+      <img class="gallery" src="images/youth_lockin.jpg" alt="Youth Lock-In" />
+      <img class="gallery" src="images/outdoor_worship.jpg" alt="Outdoor Worship" />
+      <img class="gallery" src="images/youth_event.jpg" alt="Youth Event" />
+    </section>
+
+    <section class="section" id="contact">
+      <h2 data-key="contact_title">Contact Us</h2>
+      <p data-key="address"><strong>Address:</strong> 2500 S Main St, Ann Arbor, MI 48103</p>
+      <p data-key="phone"><strong>Phone:</strong> 734-678-6462 (Pastor Heonseok Bae)</p>
+    </section>
+  </div>
+
+  <footer>
+    <p data-key="footer">&copy; 2025 Ann Arbor Hope Church. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
